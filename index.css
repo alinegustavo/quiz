@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+header span {
+    color: dimgray;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    color: silver;
+}
+
+
+
