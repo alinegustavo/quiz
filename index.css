@@ -1,22 +1,60 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 header {
-    background-color: black;
+  background-color: black;
 }
 
 header span {
-    color: dimgray;
+  color: dimgray;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 20px 0;
-    color: silver;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  color: silver;
 }
 
+.imagens {
+  width: 30%;
+  margin-left: 35%;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
 
+.proximo,
+.anterior {
+  border: 1px solid #fff;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 32%;
+}
 
+.anterior {
+  right: 0;
+}
+
+.proximo:hover,
+.anterior:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.imagens div {
+  float: left;
+}
+
+img {
+  box-shadow: 0px 0px 10px 15px #000;
+}
+
+h2 {
+  text-align: center;
+}
